@@ -1,7 +1,7 @@
 
 <template>
   <div class="pic">
-    <div class="innerPic"></div>
+    <img src="~@/assets/bBanner.png" alt="">
   </div>
 </template>
 
@@ -17,21 +17,6 @@ export default {
 
 <style scoped lang='sass'>
 .pic
-  position: relative
-  overflow: hidden
-  &:before
-    display: block
-    content: ""
-    width: 100%
-    padding-top: 1290 / 860 * 100%
-  > *
-    position: absolute!important
-    width: 100%
-    height: 100%
-    top: 0
-    left: 0
-    z-index: 1
-    background-size: cover
-  .innerPic
-    background-image: url(~@/assets/bBanner.png)
+  img
+    max-width: 100%
 </style>
