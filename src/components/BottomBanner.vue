@@ -18,5 +18,5 @@ export default {
 <style scoped lang='sass'>
 .pic
   img
-    max-width: 100%
+    width: 100%
 </style>

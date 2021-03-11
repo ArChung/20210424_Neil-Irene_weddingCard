@@ -6,12 +6,12 @@
       <form @submit.prevent="handleSubmit(onSubmit)">
         <div class="q_box" id='attend'>
           <div class="subTitle">首先</div>
-          <div class="title">(還)會來嗎</div>
+          <div class="title">會來嗎</div>
           <ValidationProvider rules="required_attend" v-slot="{ errors }">
             <div class="d-f" >
               <div class="btnBox">
                 <input type="radio" value="yes" v-model="formData.attend" id="attend_yes" />
-                <div class="btn" @click="onAttend('yes')" v-scroll-to="'#whosFriend'">還會啦</div>
+                <div class="btn" @click="onAttend('yes')" v-scroll-to="'#whosFriend'">當然會啦</div>
               </div>
               <div class="btnBox">
                 <input type="radio" value="no" v-model="formData.attend" id="attend_no" />
@@ -302,7 +302,7 @@ export default {
     onSubmit() {
       this.$emit('sendForm');
 
-      const apiUrl = 'https://script.google.com/macros/s/AKfycbyp2apWfIwHaVRWtce95ipPf_LQnatR8jXYk4PJVoZtFD4iIdQK/exec';
+      const apiUrl = 'https://script.google.com/macros/s/AKfycbyRvue0aYd2NWecas5H8uKedv6QM2G6OnAebz21joE/dev';
 
       this.axios.get(apiUrl, {
         params: this.formData,
