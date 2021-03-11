@@ -54,8 +54,11 @@ export default {
 <style lang='sass'>
 .topBanner
   position: relative
+  overflow: hidden
   img
     display: block
+    width: 100%
+    max-width: 100%
 
   .front
     position: absolute

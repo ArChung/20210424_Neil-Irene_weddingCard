@@ -278,10 +278,10 @@ export default {
       },
       coupleData: {
         vicky: {
-          friendPeriod: ['主桌', '親戚', '大直國中', '大直高中', '淡江大學', '淡江網球隊', '富邦證券', '皓崴投資', 'IPEVO'],
+          friendPeriod: ['主桌', '親戚', '青松補習班', '成功高中', '成功大學', '保一總隊', '獅王家品', '其他好捧油'],
         },
         arChung: {
-          friendPeriod: ['主桌', '親戚', '中山國中', '名師補習班', '板橋高中', '成功大學', '嗨歪牧耘', '李奧貝納', '搖擺舞', '民生室友', '甜約翰'],
+          friendPeriod: ['主桌', '親戚', '太平還是集美', '三重高中', '淡江大傳', '愛的大傳所', 'BAND 產品人', '雲沛創新集團', '天使窗口4ni'],
         },
       },
     };
@@ -302,7 +302,7 @@ export default {
     onSubmit() {
       this.$emit('sendForm');
 
-      const apiUrl = 'https://script.google.com/macros/s/AKfycbyRvue0aYd2NWecas5H8uKedv6QM2G6OnAebz21joE/dev';
+      const apiUrl = 'https://script.google.com/macros/s/AKfycbyp2apWfIwHaVRWtce95ipPf_LQnatR8jXYk4PJVoZtFD4iIdQK/exec';
 
       this.axios.get(apiUrl, {
         params: this.formData,

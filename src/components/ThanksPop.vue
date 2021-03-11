@@ -16,7 +16,7 @@
               class="txtBtn"
               @click='onCalender()'
             >我金魚我需要提醒</a>
-            <a href="https://g.page/lebledor-miramar?share" @click='onMap()' target="_blank" class="txtBtn">我路癡我需要帶路</a>
+            <a href="https://www.google.com/maps/place/%E5%BD%AD%E5%9C%92%E5%8F%B0%E5%8C%97%E9%A4%A8%EF%BD%9C%E5%A9%9A%E5%AE%B4%E5%A0%B4%E5%9C%B0+%C2%B7+%E6%98%A5%E9%85%92%E5%B0%BE%E7%89%99+%E2%80%A7+%E5%85%AC%E5%8F%B8%E8%81%9A%E9%A4%90+%E2%80%A7+%E5%AE%B6%E5%BA%AD%E8%81%9A%E9%A4%90+%C2%B7+%E7%BE%8E%E9%A3%9F%E9%A4%90%E5%BB%B3/@25.0410972,121.5712084,17z/data=!3m1!4b1!4m5!3m4!1s0x3442aba36939324f:0x71260f1793fa7d04!8m2!3d25.0410972!4d121.5733971" @click='onMap()' target="_blank" class="txtBtn">我路癡我需要帶路</a>
           </div>
         </div>
       </transition>
