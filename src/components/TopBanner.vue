@@ -5,6 +5,9 @@
     </div>
     <swiper class="banner " :options="swiperOption">
       <div class="swiper-slide s">
+        <img src="~@/assets/text04.png" alt="">
+      </div>
+      <div class="swiper-slide s">
         <img src="~@/assets/text01.png" alt="">
       </div>
       <div class="swiper-slide s">
@@ -12,9 +15,6 @@
       </div>
       <div class="swiper-slide s">
         <img src="~@/assets/text03.png" alt="">
-      </div>
-      <div class="swiper-slide s">
-        <img src="~@/assets/text04.png" alt="">
       </div>
     </swiper>
     <div class="front">
