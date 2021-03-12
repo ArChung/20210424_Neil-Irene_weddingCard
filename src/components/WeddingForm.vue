@@ -45,22 +45,22 @@
               <div>
                 <input
                   type="radio"
-                  value="vicky"
+                  value="bridegroom"
                   v-model="formData.whosFriend"
                   @change.stop="formData.friendPeriod=null"
                 />
-                <div class="preson m1" @click="onWhosFriend('Neil')" v-scroll-to="'#friendPeriod'">
+                <div class="preson m1" @click="onWhosFriend('bridegroom')" v-scroll-to="'#friendPeriod'">
                   <div class="innerPic m1"></div>
                 </div>
               </div>
               <div>
                 <input
                   type="radio"
-                  value="arChung"
+                  value="bride"
                   v-model="formData.whosFriend"
                   @change.stop="formData.friendPeriod=null"
                 />
-                <div class="preson m2" @click="onWhosFriend('Irene')" v-scroll-to="'#friendPeriod'">
+                <div class="preson m2" @click="onWhosFriend('bride')" v-scroll-to="'#friendPeriod'">
                   <div class="innerPic m2"></div>
                 </div>
               </div>
@@ -277,10 +277,10 @@ export default {
         words: '今天妳要嫁給我',
       },
       coupleData: {
-        vicky: {
+        bridegroom: {
           friendPeriod: ['主桌', '親戚', '青松補習班', '成功高中', '成功大學', '保一總隊', '獅王家品', '其他好捧油'],
         },
-        arChung: {
+        bride: {
           friendPeriod: ['主桌', '親戚', '太平還是集美', '三重高中', '淡江大傳', '愛的大傳所', 'BAND 產品人', '雲沛創新集團', '天使窗口4ni'],
         },
       },
