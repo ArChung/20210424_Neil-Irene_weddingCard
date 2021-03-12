@@ -11,7 +11,7 @@
           <img :src="picUrl" alt class="mt-2" />
           <div class="d-f mt-5 jc-sb">
             <a
-              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGo3bTY3Zjlva3ZwcHBvZGIza2RudG11dnEgazdqMmJwNXJiZGpyNWc0dTRzMDVuYmhxczRAZw&tmsrc=k7j2bp5rbdjr5g4u4s05nbhqs4%40group.calendar.google.com"
+              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MTBnbWlhaTRnbG12NGg4NTZiMWE2a2toZWwgc2VyZW5kaXBpdHk5MDEzMEBt&tmsrc=serendipity90130%40gmail.com"
               target="_blank"
               class="txtBtn"
               @click='onCalender()'
