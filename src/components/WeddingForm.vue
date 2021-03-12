@@ -49,7 +49,7 @@
                   v-model="formData.whosFriend"
                   @change.stop="formData.friendPeriod=null"
                 />
-                <div class="preson m1" @click="onWhosFriend('vicky')" v-scroll-to="'#friendPeriod'">
+                <div class="preson m1" @click="onWhosFriend('Neil')" v-scroll-to="'#friendPeriod'">
                   <div class="innerPic m1"></div>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                   v-model="formData.whosFriend"
                   @change.stop="formData.friendPeriod=null"
                 />
-                <div class="preson m2" @click="onWhosFriend('arChung')" v-scroll-to="'#friendPeriod'">
+                <div class="preson m2" @click="onWhosFriend('Irene')" v-scroll-to="'#friendPeriod'">
                   <div class="innerPic m2"></div>
                 </div>
               </div>
